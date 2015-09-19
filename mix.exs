@@ -20,6 +20,7 @@ defmodule WaybackArchiver.Mixfile do
 
   defp package do
     [files: git_files,
+      description: "Send URLs to Wayback Machine",
       licenses: ["http://opensource.org/licenses/MIT"],
       contributors: ["Jacob Burenstam"],
       links: %{"homepage": "http://github.com/buren/ex-wayback-archiver"}]
