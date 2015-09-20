@@ -10,4 +10,5 @@ defmodule WaybackArchiverTest do
   test "save with many empty urls" do
     assert save(["", ""]) == [nil, nil | nil]
   end
+
 end

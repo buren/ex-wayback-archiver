@@ -15,4 +15,5 @@ defmodule RequestTest do
     body = get("http://example.com", :body)
     assert String.starts_with?(body, "<!doctype html>") == true
   end
+
 end

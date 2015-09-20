@@ -17,4 +17,5 @@ defmodule WMArchiverTest do
   test "archive_url with empty url" do
     assert archive_url("") == ""
   end
+
 end

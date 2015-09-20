@@ -16,4 +16,5 @@ defmodule CrawlerTest do
     expected_links = ["http://www.iana.org/domains/example"]
     assert links == expected_links
   end
+
 end

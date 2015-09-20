@@ -14,4 +14,5 @@ defmodule HTMLParserTest do
     html = build_doc("<a href=\"#target\">Link</a>")
     assert links(html) == ["#target"]
   end
+
 end
